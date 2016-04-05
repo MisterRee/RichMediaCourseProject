@@ -1,0 +1,39 @@
+{
+  "name": "richmediacourseproject",
+  "version": "1.0.0",
+  "description": "A course wide project to incorperate node, websockets, express and a database together",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "pretest": "jshint ./src",
+    "test": "echo 'complete'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterRee/RichMediaCourseProject.git"
+  },
+  "keywords": [
+    "NPM",
+    "Node",
+    "MVC",
+    "express",
+    "monogDB"
+  ],
+  "author": "Danny Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterRee/RichMediaCourseProject/issues"
+  },
+  "homepage": "https://github.com/MisterRee/RichMediaCourseProject#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "jshint": "^2.9.1",
+    "mongoose": "^4.4.11",
+    "serve-favicon": "^2.3.0",
+    "underscore": "^1.8.3"
+  }
+}
